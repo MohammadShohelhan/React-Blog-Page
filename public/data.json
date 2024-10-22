@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "coverpicture": "https://images.unsplash.com/photo-1719937051157-d3d81cc28e86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "John Doe",
+        "authorimg": "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?w=100&h=100&auto=format&fit=crop&q=60",
+        "posteddate": "2024-10-21",
+        "readingtime": 5,
+        "hashtag": "#Technology"
+    },
+    {
+        "id": 2,
+        "coverpicture": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38?w=500&auto=format&fit=crop&q=60",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "Jane Smith",
+        "authorimg": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&auto=format&fit=crop&q=60",
+        "posteddate": "2024-10-18",
+        "readingtime": 8,
+        "hashtag": "#Space"
+    },
+    {
+        "id": 3,
+        "coverpicture": "https://images.unsplash.com/photo-1521747116042-5a810fda9664?w=500&auto=format&fit=crop&q=60",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "Michael Johnson",
+        "authorimg": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=100&h=100&auto=format&fit=crop&q=60",
+        "posteddate": "2024-10-10",
+        "readingtime": 6,
+        "hashtag": "#Minimalism"
+    },
+    {
+        "id": 4,
+        "coverpicture": "https://images.unsplash.com/photo-1719937051157-d3d81cc28e86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "Emily Davis",
+        "authorimg": "https://images.unsplash.com/photo-1554151228-14d9def656e4?w=100&h=100&auto=format&fit=crop&q=60",
+        "posteddate": "2024-09-29",
+        "readingtime": 7,
+        "hashtag": "#Sustainability"
+    },
+    {
+        "id": 5,
+        "coverpicture": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?w=500&auto=format&fit=crop&q=60",
+        "title": "How to get your first job as a self-taught programmer",
+        "author": "David Lee",
+        "authorimg": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&h=100&auto=format&fit=crop&q=60",
+        "posteddate": "2024-10-05",
+        "readingtime": 10,
+        "hashtag": "#AI"
+    }
+]
