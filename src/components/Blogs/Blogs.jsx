@@ -16,7 +16,7 @@ const Blogs = ({handleBookMarked,markAsread}) => {
   }, []);
 
   return (
-    <div className="lg:w-2/3 mt-2">
+    <div className="lg:w-2/3 mt-2 px-3">
       
       {blogs.map((blog) => {
        return <Blog 

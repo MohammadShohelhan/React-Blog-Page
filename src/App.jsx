@@ -9,7 +9,7 @@ import LogIn from "./components/LigIn/LogIn";
 function App() {
   const [bookMark, setBookMark] = useState([]);
   const [readTime, setReadTime] = useState(0);
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
   const [arr, setArr] = useState([]);
 
   const handleBookMarked = (blog) => {
@@ -43,7 +43,7 @@ function App() {
   return (
     <>
       {!isLogin ? (
-        <div className="flex justify-center items-center h-screen w-full">
+        <div className="flex justify-center items-center h-screen w-full bg-purple-200 ">
           {" "}
           <LogIn handleLogin={handleLogin}></LogIn>
         </div>
@@ -51,7 +51,7 @@ function App() {
         <div>
           <Header></Header>
 
-          <div className="lg:flex gap-16 px-2 md:px-8 m:w-11/12  mx-auto xl:px-20">
+          <div className="lg:flex gap-8 xl:gap-16 px-2 md:px-8 m:w-11/12  mx-auto xl:px-20">
             
 
             <div className="lg:w-1/3  rounded-xl mt-4 order-2 ">

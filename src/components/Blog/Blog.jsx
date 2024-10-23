@@ -1,7 +1,9 @@
 import PropTypes from "prop-types";
-import { FaRegBookmark } from "react-icons/fa6";
+import { useState } from "react";
+import { FaBookmark } from "react-icons/fa";
 
 const Blog = ({ blog, markAsread, handleBookMarked }) => {
+  const [clicked,setClicked] = useState(false)
  
   const {
     author,
@@ -13,6 +15,16 @@ const Blog = ({ blog, markAsread, handleBookMarked }) => {
     title,
     coverpicture,
   } = blog;
+  
+  const handlebookmarkIcon =()=>{
+    handleBookMarked(blog)
+    setClicked(!clicked )
+  }
+
+  const handleMarkasBook=()=>{
+     markAsread(blog)
+    setClicked(false)
+  }
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden mb-6 p-4 space-y-4">
       <img
@@ -36,19 +48,19 @@ const Blog = ({ blog, markAsread, handleBookMarked }) => {
         <div className="flex justify-end items-center gap-4">
           {" "}
           <p className="md:text-lg font-bold">Reading Time: {readingtime}</p>{" "}
-          <button  onClick={() => handleBookMarked(blog)} >
-            <FaRegBookmark className="text-2xl" />
+          <button className={`${clicked? "text-red-500 text-2xl" : "text-2xl"}`} onClick={handlebookmarkIcon} >
+          <FaBookmark />
           </button>
         </div>
       </div>
       <h3
-        onClick={() => markAsread(blog)}
+        onClick={handleMarkasBook}
         className="text-blue-600 text-lg font-bold cursor-pointer underline">
         Mark as read
       </h3>
 
-      <h2 className="text-4xl font-bold mt-2 md:w-3/4 ">{title}</h2>
-      <p className="text-lg text-gray-500 mt-1">{hashtag}</p>
+      <h2 className="text-2xl md:text-4xl font-bold mt-2 md:w-3/4 ">{title}</h2>
+      <p className="text-sm md:text-lg text-gray-500 mt-1">{hashtag}</p>
     </div>
   );
 };

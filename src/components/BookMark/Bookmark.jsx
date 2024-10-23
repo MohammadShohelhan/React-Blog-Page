@@ -7,7 +7,7 @@ const Bookmark = ({bookMark}) => {
     <div className="bg-[#f3f3f3] h-full rounded-xl">
       <div className="text-2xl p-4">Bookmark:{bookMark.length}</div>
 
-      <div className="">
+      <div className="pb-4">
         {
           bookMark.map((book)=>{
            return   <Book  key={book.id} book={book} ></Book>
